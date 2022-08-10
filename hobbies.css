@@ -1,0 +1,67 @@
+* {
+    background-color: lightcoral;
+}
+
+#headline h1{
+    font-size: 3.5rem;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#headline .menu a{
+    width: 25rem;
+    display: inline;
+    color: black;
+    position: relative;
+    border: solid;
+    font-display: flex;
+    background-color: darkgray;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+
+#headline .menu a:hover{
+    color:red;
+}
+
+#headline .menu{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-evenly;
+    border: solid;
+    margin: 00.7rem;
+    padding: 00.5rem;
+    background-color: lightgray;
+}
+
+#info p{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 00.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    border:solid;
+    margin: 00.5rem;
+    border-radius:2.5px;
+    padding: 5px;
+    width: auto;
+    justify-content: flex;
+    justify-content: space-evenly;
+    text-justify: auto;
+    text-align: center;
+    font-size: medium;
+    background-color: darkgray; 
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover{
+    color: red;
+}
